@@ -1,7 +1,4 @@
-﻿  differential_robot_control.cpp
-e:\myfolder\c course\coppeliasimrelated\pioneerrobotpathplanning\pioneer_robot_path_planning\pioneer_robot_path_planning\differential_robot_control.cpp(20): warning C4244: 'argument': conversion from 'double' to 'simxFloat', possible loss of data
-e:\myfolder\c course\coppeliasimrelated\pioneerrobotpathplanning\pioneer_robot_path_planning\pioneer_robot_path_planning\differential_robot_control.cpp(21): warning C4244: 'argument': conversion from 'double' to 'simxFloat', possible loss of data
-  main.cpp
+﻿  keyboard_control.cpp
 LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/LTCG' specification
      Creating library E:\MyFolder\C course\CoppeliaSimRelated\PioneerRobotPathPlanning\pioneer_robot_path_planning\Debug\pioneer_robot_path_planning.lib and object E:\MyFolder\C course\CoppeliaSimRelated\PioneerRobotPathPlanning\pioneer_robot_path_planning\Debug\pioneer_robot_path_planning.exp
   Generating code

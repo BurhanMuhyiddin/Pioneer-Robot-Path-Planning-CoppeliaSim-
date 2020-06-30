@@ -18,6 +18,7 @@ void drive_robot(int clientID, int rightMotorHandle, int leftMotorHandle, double
 	//{
 		//b_is_first_time = false;
 		simxSetJointTargetVelocity(clientID, rightMotorHandle, rightAngularVelocity, simx_opmode_oneshot);
+		Sleep(10);
 		simxSetJointTargetVelocity(clientID, leftMotorHandle, leftAngularVelocity, simx_opmode_oneshot);
 	//}
 	//else

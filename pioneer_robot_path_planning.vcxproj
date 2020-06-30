@@ -137,15 +137,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="auxiliary_functions.cpp" />
     <ClCompile Include="C:\Program Files\CoppeliaRobotics\CoppeliaSimEdu\programming\remoteApi\extApi.c" />
     <ClCompile Include="C:\Program Files\CoppeliaRobotics\CoppeliaSimEdu\programming\remoteApi\extApiPlatform.c" />
     <ClCompile Include="differential_robot_control.cpp" />
+    <ClCompile Include="draw_map.cpp" />
+    <ClCompile Include="keyboard_control.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="auxiliary_functions.h" />
     <ClInclude Include="C:\Program Files\CoppeliaRobotics\CoppeliaSimEdu\programming\remoteApi\extApi.h" />
     <ClInclude Include="C:\Program Files\CoppeliaRobotics\CoppeliaSimEdu\programming\remoteApi\extApiPlatform.h" />
     <ClInclude Include="differential_robot_control.h" />
+    <ClInclude Include="draw_map.h" />
+    <ClInclude Include="keyboard_control.h" />
     <ClInclude Include="robot_parameters.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
