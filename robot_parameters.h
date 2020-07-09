@@ -10,5 +10,6 @@
 #define STEER_ANGLE					PI / 30
 #define VELOCITY_STEP				0.0100
 #define ANGULAR_VELOCITY_STEP		0.0100
+#define RADIUS						3
 
 #endif // !ROBOT_PARAMETERS_INCLUDED_H

@@ -9,11 +9,17 @@ struct MyNodes
 {
 	int x;
 	int y;
+	int cost;
+	int h; // heuristic cost
+	int g; // g cost
+	int f; // f cost
 	bool b_obstacle = false;
+	bool b_visited = false;
 	int parentNode;
 };
 
 void initialize_map();
+void read_map();
 void printMap();
 
 #endif // !DRAW_MAP_INCLUDED_H

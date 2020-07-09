@@ -36,6 +36,9 @@
     <ClCompile Include="auxiliary_functions.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="a_star.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="C:\Program Files\CoppeliaRobotics\CoppeliaSimEdu\programming\remoteApi\extApi.h">
@@ -57,6 +60,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="auxiliary_functions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="a_star.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

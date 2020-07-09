@@ -28,11 +28,6 @@ using namespace std;
 
 	*/
 
-int pioneerRobotHandle = 0;
-int leftMotorHandle = 0;
-int rightMotorHandle = 0;
-int ultrasonicSensor5Handle = 0;
-
 bool isFinished = false;
 
 float pioneerPosition[3] = { 0.0 };
@@ -46,11 +41,16 @@ int main(int argc, char** argv)
 	unsigned char state = 0;
 	int mySignal = 0;
 
+	int pioneerRobotHandle = 0;
+	int leftMotorHandle = 0;
+	int rightMotorHandle = 0;
+	int ultrasonicSensor5Handle = 0;
+
 	simxFinish(-1);
 	clientID = simxStart((simxChar*)"127.0.0.1", 19999, true, true, 5000, 5);
 	Sleep(1);
 
-	//initialize_map();
+	initialize_map();
 
 	if (clientID != -1)
 	{

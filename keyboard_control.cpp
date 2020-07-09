@@ -57,6 +57,7 @@ void control_pioneer_robot(int clientID, int& rightMotorHandle, int& leftMotorHa
 		{
 			//save map 
 			while (simxSetIntegerSignal(clientID, (simxChar*) "mySignal", 1, simx_opmode_oneshot));
+			drive_robot(clientID, rightMotorHandle, leftMotorHandle, 0.0, 0.0);
 			isFinished = true;
 			break;
 		}

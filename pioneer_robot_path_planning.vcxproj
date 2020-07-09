@@ -138,6 +138,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="auxiliary_functions.cpp" />
+    <ClCompile Include="a_star.cpp" />
     <ClCompile Include="C:\Program Files\CoppeliaRobotics\CoppeliaSimEdu\programming\remoteApi\extApi.c" />
     <ClCompile Include="C:\Program Files\CoppeliaRobotics\CoppeliaSimEdu\programming\remoteApi\extApiPlatform.c" />
     <ClCompile Include="differential_robot_control.cpp" />
@@ -147,6 +148,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="auxiliary_functions.h" />
+    <ClInclude Include="a_star.h" />
     <ClInclude Include="C:\Program Files\CoppeliaRobotics\CoppeliaSimEdu\programming\remoteApi\extApi.h" />
     <ClInclude Include="C:\Program Files\CoppeliaRobotics\CoppeliaSimEdu\programming\remoteApi\extApiPlatform.h" />
     <ClInclude Include="differential_robot_control.h" />
